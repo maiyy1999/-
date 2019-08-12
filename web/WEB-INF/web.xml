@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>allSelectServlet</servlet-name>
+        <servlet-class>com.servlet.AllSelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allSelectServlet</servlet-name>
+        <url-pattern>/allSelectServlet</url-pattern>
+
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addServlet</servlet-name>
+        <servlet-class>com.servlet.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addServlet</servlet-name>
+        <url-pattern>/addServlet</url-pattern>
+
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>deleteServlet</servlet-name>
+        <servlet-class>com.servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteServlet</servlet-name>
+        <url-pattern>/deleteServlet</url-pattern>
+
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>updateServlet</servlet-name>
+        <servlet-class>com.servlet.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateServlet</servlet-name>
+        <url-pattern>/updateServlet</url-pattern>
+
+    </servlet-mapping>
+</web-app>
